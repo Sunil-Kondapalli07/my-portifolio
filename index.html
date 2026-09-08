@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunil Kumar Kondapalli | AI Solutions Engineer</title>
+    <meta name="description" content="AI Solutions Engineer with 4+ years of experience building enterprise Generative AI applications, AI copilots, and cloud automation platforms.">
+    <meta name="keywords" content="AI Solutions Engineer, Generative AI, Cloud Automation, LangChain, OpenAI, Azure, AWS, Python">
+    <meta property="og:title" content="Sunil Kumar Kondapalli — AI Solutions Engineer">
+    <meta property="og:description" content="Building enterprise Generative AI applications, AI copilots, and cloud automation platforms.">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Three.js 3D Background Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Cursor glow effect -->
+    <div id="cursor-glow"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">SK</a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="hero" class="section hero-section">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>Available for opportunities</span>
+            </div>
+            <h1 class="hero-name">SUNIL KUMAR KONDAPALLI</h1>
+            <div class="hero-title-wrapper">
+                <span class="hero-title-prefix">&gt; </span>
+                <span class="hero-title" id="typed-text"></span>
+                <span class="typed-cursor">|</span>
+            </div>
+            <p class="hero-description">
+                Building enterprise AI solutions that transform how organizations
+                manage cloud infrastructure and automate operations.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">
+                    <span>View Projects</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 17l9.2-9.2M17 17V7H7"/>
+                    </svg>
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <span>Contact Me</span>
+                </a>
+            </div>
+            <div class="hero-tech-float">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">LangChain</span>
+                <span class="tech-tag">OpenAI</span>
+                <span class="tech-tag">Azure</span>
+                <span class="tech-tag">AWS</span>
+            </div>
+        </div>
+        <div class="scroll-indicator" id="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text glass-card">
+                    <div class="about-avatar">
+                        <div class="avatar-ring">
+                            <img src="profile.jpg" alt="Sunil Kumar Kondapalli" class="avatar-photo">
+                        </div>
+                    </div>
+                    <p class="about-summary">
+                        AI Solutions Engineer with <strong>4+ years</strong> of experience building
+                        enterprise <strong>Generative AI applications</strong>, AI copilots,
+                        cloud automation platforms, intelligent assistants, and cloud governance
+                        solutions using <strong>Python, LangGraph, LangChain, Streamlit, OpenAI,
+                        Azure SDKs, AWS, Pinecone, and Terraform</strong>.
+                    </p>
+                    <p class="about-detail">
+                        I specialize in designing and deploying production-grade AI systems
+                        that bridge the gap between cutting-edge AI capabilities and
+                        real-world enterprise cloud operations.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card glass-card">
+                        <span class="stat-number" data-target="4">0</span>
+                        <span class="stat-plus">+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <span class="stat-number" data-target="3">0</span>
+                        <span class="stat-plus">+</span>
+                        <span class="stat-label">Enterprise Projects</span>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <span class="stat-number" data-target="10">0</span>
+                        <span class="stat-plus">+</span>
+                        <span class="stat-label">AI Technologies</span>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <span class="stat-number" data-target="5">0</span>
+                        <span class="stat-plus">+</span>
+                        <span class="stat-label">Cloud Platforms</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EXPERIENCE SECTION ==================== -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header">
+
+                <h2 class="section-title">Experience</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-line"></div>
+
+                <div class="timeline-item reveal-item">
+                    <div class="timeline-dot">
+                        <div class="dot-pulse"></div>
+                    </div>
+                    <div class="timeline-card glass-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-role">Senior Systems Engineer</h3>
+                                <span class="timeline-company">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                                    Infosys
+                                </span>
+                            </div>
+                            <span class="timeline-period">Current</span>
+                        </div>
+
+                        <div class="experience-project">
+                            <h4 class="project-subtitle">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                Enterprise AI Copilot for Azure Cloud Management
+                            </h4>
+                            <ul class="experience-details">
+                                <li>Designed enterprise AI Copilot using Python, Streamlit, LangChain, OpenAI, Azure SDKs & Pinecone</li>
+                                <li>Integrated Azure Management Groups, subscriptions, and tenant metadata via Azure SDK APIs</li>
+                                <li>Implemented RAG using Pinecone for context-aware enterprise responses</li>
+                                <li>Generated deployment-ready Terraform scripts from AI recommendations</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">LangChain</span>
+                                <span class="tag">OpenAI</span>
+                                <span class="tag">Azure SDKs</span>
+                                <span class="tag">Pinecone</span>
+                                <span class="tag">Streamlit</span>
+                                <span class="tag">Terraform</span>
+                            </div>
+                        </div>
+
+                        <div class="experience-project">
+                            <h4 class="project-subtitle">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                AWS AI Patching Assistant
+                            </h4>
+                            <ul class="experience-details">
+                                <li>Developed AI-powered assistant for AWS patch analysis and automation</li>
+                                <li>Designed LangGraph agent workflows for intelligent reasoning and patch recommendations</li>
+                                <li>Integrated AWS services to identify missing patches and improve compliance</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span class="tag">LangGraph</span>
+                                <span class="tag">AWS</span>
+                                <span class="tag">Streamlit</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+
+                        <div class="experience-project">
+                            <h4 class="project-subtitle">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                                AWS Resource Inventory AI Chatbot
+                            </h4>
+                            <ul class="experience-details">
+                                <li>Built AI chatbot for querying AWS resource inventory using natural language</li>
+                                <li>Integrated backend APIs and created modular Python services</li>
+                                <li>Developed Streamlit frontend for cloud resource discovery and reporting</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span class="tag">NLP</span>
+                                <span class="tag">AWS APIs</span>
+                                <span class="tag">Streamlit</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card glass-card tilt-card reveal-item">
+                    <div class="project-card-glow"></div>
+                    <div class="project-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="url(#grad1)" stroke-width="1.5">
+                            <defs><linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#6c63ff"/><stop offset="100%" style="stop-color:#00d4ff"/></linearGradient></defs>
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <div class="project-number">01</div>
+                    <h3 class="project-name">Enterprise AI Copilot</h3>
+                    <p class="project-subtitle-text">Azure Cloud Management</p>
+                    <p class="project-desc">
+                        Enterprise-grade AI Copilot that integrates Azure Management Groups, implements RAG
+                        with Pinecone, and generates deployment-ready Terraform scripts aligned with Azure
+                        Cloud Adoption Framework.
+                    </p>
+                    <div class="project-features">
+                        <div class="feature">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            <span>RAG-powered responses</span>
+                        </div>
+                        <div class="feature">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            <span>Terraform code generation</span>
+                        </div>
+                        <div class="feature">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            <span>Interactive dashboards</span>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">LangChain</span>
+                        <span class="tag">OpenAI</span>
+                        <span class="tag">Azure</span>
+                        <span class="tag">Pinecone</span>
+                        <span class="tag">Terraform</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card tilt-card reveal-item">
+                    <div class="project-card-glow"></div>
+                    <div class="project-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="url(#grad2)" stroke-width="1.5">
+                            <defs><linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#ff6b9d"/><stop offset="100%" style="stop-color:#6c63ff"/></linearGradient></defs>
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </div>
+                    <div class="project-number">02</div>
+                    <h3 class="project-name">AWS AI Patching Assistant</h3>
+                    <p class="project-subtitle-text">Intelligent Patch Automation</p>
+                    <p class="project-desc">
+                        AI-powered assistant using LangGraph agent workflows for intelligent reasoning,
+                        automated patch analysis, and compliance improvement across AWS infrastructure.
+                    </p>
+                    <div class="project-features">
+                        <div class="feature">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            <span>LangGraph agent workflows</span>
+                        </div>
+                        <div class="feature">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            <span>Automated patch analysis</span>
+                        </div>
+                        <div class="feature">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            <span>Compliance automation</span>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">LangGraph</span>
+                        <span class="tag">AWS</span>
+                        <span class="tag">Streamlit</span>
+                        <span class="tag">Python</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card tilt-card reveal-item">
+                    <div class="project-card-glow"></div>
+                    <div class="project-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="url(#grad3)" stroke-width="1.5">
+                            <defs><linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#00d4ff"/><stop offset="100%" style="stop-color:#00ff88"/></linearGradient></defs>
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                        </svg>
+                    </div>
+                    <div class="project-number">03</div>
+                    <h3 class="project-name">AWS Resource Inventory</h3>
+                    <p class="project-subtitle-text">AI-Powered Chatbot</p>
+                    <p class="project-desc">
+                        Natural language AI chatbot for querying AWS resource inventory with modular
+                        Python services, backend API integrations, and an intuitive Streamlit frontend
+                        for cloud resource discovery.
+                    </p>
+                    <div class="project-features">
+                        <div class="feature">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            <span>Natural language queries</span>
+                        </div>
+                        <div class="feature">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            <span>Modular architecture</span>
+                        </div>
+                        <div class="feature">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            <span>Resource discovery & reports</span>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">NLP</span>
+                        <span class="tag">AWS APIs</span>
+                        <span class="tag">Streamlit</span>
+                        <span class="tag">Python</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header">
+
+                <h2 class="section-title">Tech Stack</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+
+                <div class="skill-category glass-card reveal-item">
+                    <div class="skill-category-icon" style="--cat-color: #6c63ff;">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                    </div>
+                    <h3 class="skill-category-title">Languages & Frameworks</h3>
+                    <div class="skill-items">
+                        <div class="skill-item"><span class="skill-dot" style="background:#3776ab;"></span>Python</div>
+                        <div class="skill-item"><span class="skill-dot" style="background:#2ea44f;"></span>LangChain</div>
+                        <div class="skill-item"><span class="skill-dot" style="background:#ff6b6b;"></span>LangGraph</div>
+                        <div class="skill-item"><span class="skill-dot" style="background:#ff4b4b;"></span>Streamlit</div>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card reveal-item">
+                    <div class="skill-category-icon" style="--cat-color: #ff6b9d;">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 5a2 2 0 1 1-2 2 2 2 0 0 1 2-2zm4 10H8a1 1 0 0 1 0-2h8a1 1 0 0 1 0 2z"/></svg>
+                    </div>
+                    <h3 class="skill-category-title">AI & Machine Learning</h3>
+                    <div class="skill-items">
+                        <div class="skill-item"><span class="skill-dot" style="background:#10a37f;"></span>OpenAI</div>
+                        <div class="skill-item"><span class="skill-dot" style="background:#00d4ff;"></span>RAG</div>
+                        <div class="skill-item"><span class="skill-dot" style="background:#4a90d9;"></span>Pinecone</div>
+                        <div class="skill-item"><span class="skill-dot" style="background:#ff9d00;"></span>Generative AI</div>
+                        <div class="skill-item"><span class="skill-dot" style="background:#a855f7;"></span>NLP</div>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card reveal-item">
+                    <div class="skill-category-icon" style="--cat-color: #00d4ff;">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10"/><path d="M2 12h10"/><circle cx="18" cy="18" r="4"/><path d="M18 16v4"/><path d="M16 18h4"/></svg>
+                    </div>
+                    <h3 class="skill-category-title">Cloud Platforms</h3>
+                    <div class="skill-items">
+                        <div class="skill-item"><span class="skill-dot" style="background:#0078d4;"></span>Azure</div>
+                        <div class="skill-item"><span class="skill-dot" style="background:#ff9900;"></span>AWS</div>
+                        <div class="skill-item"><span class="skill-dot" style="background:#7b42bc;"></span>Terraform</div>
+                        <div class="skill-item"><span class="skill-dot" style="background:#0078d4;"></span>Azure SDKs</div>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card reveal-item">
+                    <div class="skill-category-icon" style="--cat-color: #00ff88;">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                    </div>
+                    <h3 class="skill-category-title">Tools & Frameworks</h3>
+                    <div class="skill-items">
+                        <div class="skill-item"><span class="skill-dot" style="background:#0078d4;"></span>Azure Management Groups</div>
+                        <div class="skill-item"><span class="skill-dot" style="background:#00d4ff;"></span>Cloud Adoption Framework</div>
+                        <div class="skill-item"><span class="skill-dot" style="background:#e34c26;"></span>REST APIs</div>
+                        <div class="skill-item"><span class="skill-dot" style="background:#f05032;"></span>Git</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p class="contact-intro">
+                        Interested in collaborating on AI solutions or cloud automation projects?
+                        Let's connect and build something amazing together.
+                    </p>
+                    <div class="contact-cards">
+                        <a href="mailto:sunilkondapalli2000@gmail.com" class="contact-card glass-card">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            </div>
+                            <div>
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">sunilkondapalli2000@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="tel:+919391564610" class="contact-card glass-card">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            </div>
+                            <div>
+                                <span class="contact-label">Phone</span>
+                                <span class="contact-value">+91-9391564610</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form glass-card" id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-input form-textarea" placeholder="Tell me about your project..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">
+                        <span>Send Message</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <span class="footer-logo">SK</span>
+                <p class="footer-text">Designed & Built by Sunil Kumar Kondapalli</p>
+                <p class="footer-copy">&copy; 2026 All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
